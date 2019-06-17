@@ -1,6 +1,6 @@
 import {connect} from 'react-redux';
 import HumanVSComp from '../component/HumanVsComp.jsx';
-import {conf2} from '../component/gameConfigurations.jsx';
+import {conf2} from '../component/GameConfigurations.jsx';
 import {
     gameStart, 
     setPlayer1Choice, 
@@ -9,7 +9,7 @@ import {
     loadAltConfiguration,
     setItems,
     setScores
-} from '../shared/actions';
+} from '../actions/index';
 
 let shuffleInterval;
 let items = [];
