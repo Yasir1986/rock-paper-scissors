@@ -5,7 +5,7 @@ const Scores = (props) => {
     <div className="score">
       <div className="result">
         <div>
-          <p>Wins</p>
+          <p>Your Wins</p>
           <div>{props.scores.player1}</div>
         </div>
         <div className="tie">
@@ -13,7 +13,7 @@ const Scores = (props) => {
           <div>{props.scores.tie}</div>  
         </div>
         <div>
-          <p>Wins</p>
+          <p>PC Wins</p>
           <div>{props.scores.player2}</div>  
         </div>
       </div>

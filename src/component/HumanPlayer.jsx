@@ -5,7 +5,7 @@ const HumanPlayer = (props) => {
   return (
     <div className="player">
       <div className="header">
-          human
+          YOU
       </div>
       <div className="board">
           {props.gameStarted ? btns(props) : (

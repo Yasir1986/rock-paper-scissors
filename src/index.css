@@ -5,6 +5,10 @@ body {
   background: white;
 }
 
+.header{
+  text-align: center;
+}
+
 a {
   color: #03A9F4;
 }
@@ -38,7 +42,6 @@ border-bottom: 1px solid #aaa;
   cursor: pointer;
   background-color: #eee;
   display: inline-block;
-  margin: 5px;
 }
 
 .choice {
@@ -61,9 +64,10 @@ border-bottom: 1px solid #aaa;
 }
 
 .result div {
-display: inline-block;
-width: 32%;
-padding-bottom: 5px;
+  display: inline-block;
+  width: 32%;
+  padding-bottom: 5px;
+  text-align: center;
 }
 
 .result p {
@@ -79,6 +83,7 @@ padding-bottom: 5px;
 border-bottom: 1px solid #aaa;
 padding-bottom: 10px;
 margin-bottom: 0;
+text-align: center;
 }
 
 .round {
@@ -97,7 +102,8 @@ width: 32%;
 
 .btn {
 padding: 10px 30px;
-display: inline-block;
+display: flex;
+justify-content: center;
 background-color: #eee;
 margin-bottom: 20px;
 cursor: pointer;
