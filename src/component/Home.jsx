@@ -1,6 +1,6 @@
 import {connect} from 'react-redux';
 import HumanVSPc from './HumanVsPc.jsx';
-import {conf2} from './GameConfigurations.jsx';
+import {conf2} from './GameRules.jsx';
 import {
     gameStart, 
     setPlayer1Choice, 

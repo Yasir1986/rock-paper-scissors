@@ -1,4 +1,4 @@
-import {conf1} from '../component/GameConfigurations.jsx';
+import {conf1} from '../component/GameRules.jsx';
 
 const initialState = {
     items: Object.keys(conf1),
