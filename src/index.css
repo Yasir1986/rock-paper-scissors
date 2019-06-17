@@ -5,6 +5,10 @@ body {
   background: white;
 }
 
+h1{
+  text-align: center;
+}
+
 .header{
   text-align: center;
 }
@@ -41,7 +45,8 @@ border-bottom: 1px solid #aaa;
   padding: 5px 10px;
   cursor: pointer;
   background-color: #eee;
-  display: inline-block;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .choice {
