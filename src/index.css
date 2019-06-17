@@ -28,7 +28,7 @@ a {
 
 .player {
   display: inline-block;
-  width: 299px;
+  width: 399px;
   vertical-align: top;
 }
 
@@ -54,7 +54,7 @@ a {
 }
 
 .score {
-  width: 291px;
+  width: 497px;
   display: inline-block;
   border-left: 1px solid #aaa;
   height: 500px;
@@ -103,6 +103,7 @@ a {
 .round div {
   display: inline-block;
   width: 32%;
+  text-align: center; 
 }
 
 .btn {
