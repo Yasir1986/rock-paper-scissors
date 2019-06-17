@@ -35,7 +35,7 @@ const onHumanSelect = (dispatch, humanChoice) => {
     dispatch(gameStart(false));
     dispatch(setPlayer2Choice(computerChoice));
     dispatch(setPlayer1Choice(humanChoice));
-    dispatch(evaluateResult('humanVSPc'));
+    dispatch(evaluateResult('humanVsPc'));
 }
 
 const getAltConfig = (dispatch) => {
@@ -63,6 +63,6 @@ const mapDispatchToProps = dispatch => {
     }   
 }
 
-const HumanVsPcContainer = connect(mapStateToProps, mapDispatchToProps)(HumanVSPc);
+const Home = connect(mapStateToProps, mapDispatchToProps)(HumanVSPc);
 
-export default HumanVsPcContainer;
+export default Home;

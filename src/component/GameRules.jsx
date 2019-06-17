@@ -1,17 +1,17 @@
 export const conf1 = {
-    Rock: { beats: ["scissors"] },
-    Paper: { beats: ["rock"] },
-    Scissors: { beats: ["paper"] }
+    Rock: { beats: ["Scissors"] },
+    Paper: { beats: ["Rock"] },
+    Scissors: { beats: ["Paper"] }
 }
 
 export const conf2 = {
-    "rock": {
-        "beats": ["scissors"]
+    "Rock": {
+        "beats": ["Scissors"]
     },
-    "paper": {
-        "beats": ["rock"]
+    "Paper": {
+        "beats": ["Rock"]
     },
-    "scissors": {
-        "beats": ["paper"]
+    "Scissors": {
+        "beats": ["Paper"]
     }
 }
