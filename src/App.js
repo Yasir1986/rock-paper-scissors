@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
-import HumanVSCompContainer from './component/HumanVSCompContainer.jsx';
+import Home from './component/Home.jsx';
 
 class App extends Component {
   render() {
@@ -10,7 +10,7 @@ class App extends Component {
         <div>  
           <main>
             <h1>Rock Paper Scissors</h1>
-            <Route exact path="/" component={HumanVSCompContainer}/>
+            <Route exact path="/" component={Home}/>
           </main>
         </div>
       </Router>

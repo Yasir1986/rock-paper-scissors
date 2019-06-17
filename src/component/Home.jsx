@@ -1,6 +1,6 @@
 import {connect} from 'react-redux';
-import HumanVSComp from '../component/HumanVsComp.jsx';
-import {conf2} from '../component/GameConfigurations.jsx';
+import HumanVSPc from './HumanVsPc.jsx';
+import {conf2} from './GameConfigurations.jsx';
 import {
     gameStart, 
     setPlayer1Choice, 
@@ -35,7 +35,7 @@ const onHumanSelect = (dispatch, humanChoice) => {
     dispatch(gameStart(false));
     dispatch(setPlayer2Choice(computerChoice));
     dispatch(setPlayer1Choice(humanChoice));
-    dispatch(evaluateResult('humanVSComp'));
+    dispatch(evaluateResult('humanVSPc'));
 }
 
 const getAltConfig = (dispatch) => {
@@ -59,10 +59,10 @@ const mapDispatchToProps = dispatch => {
         startGame: () => startGame(dispatch),
         onHumanSelect: (item) => onHumanSelect(dispatch, item),
         getAltConfig: () => getAltConfig(dispatch),
-        setGameScores: () => dispatch(setScores(JSON.parse(localStorage.getItem('humanVSComp'))))
+        setGameScores: () => dispatch(setScores(JSON.parse(localStorage.getItem('humanVSPc'))))
     }   
 }
 
-const HumanVSCompContainer = connect(mapStateToProps, mapDispatchToProps)(HumanVSComp);
+const HumanVsPcContainer = connect(mapStateToProps, mapDispatchToProps)(HumanVSPc);
 
-export default HumanVSCompContainer;
+export default HumanVsPcContainer;
