@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 const HumanPlayer = (props) => {
   return (
     <div className="player">
@@ -20,7 +22,7 @@ const HumanPlayer = (props) => {
 const btns = (props) => {
   return (
     <div className="buttons">
-      {props.items.map((item, i) => (<a key={i} onClick={() => props.selectChoice(item)}>{item}</a>))}
+      {props.items.map((item, i) => (<Link key={i} onClick={() => props.selectChoice(item)}>{item}</Link>))}
     </div>
   );
 }
