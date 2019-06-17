@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
-import HumanVSCompContainer from './humanVsComp/HumanVSCompContainer';
+import HumanVSCompContainer from './component/HumanVSCompContainer.jsx';
 
 class App extends Component {
   render() {

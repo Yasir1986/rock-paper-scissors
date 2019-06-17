@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
-import HumanPlayer from '../shared/HumanPlayer';
-import Score from '../shared/Score';
+import HumanPlayer from '../component/HumanPlayer.jsx';
+import Score from '../component/Score.jsx';
 
 class HumanVSComp extends Component {
     componentWillMount() {
