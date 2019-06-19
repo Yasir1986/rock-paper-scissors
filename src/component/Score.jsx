@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-const Scores = (props) => {
+const Scores = props => {
   return (
     <div className="score">
       <div className="result">
@@ -10,11 +10,11 @@ const Scores = (props) => {
         </div>
         <div className="tie">
           <p>Ties</p>
-          <div>{props.scores.tie}</div>  
+          <div>{props.scores.tie}</div>
         </div>
         <div>
           <p>PC Wins</p>
-          <div>{props.scores.player2}</div>  
+          <div>{props.scores.player2}</div>
         </div>
       </div>
       <div className="rounds">
@@ -23,18 +23,22 @@ const Scores = (props) => {
       </div>
     </div>
   );
-}
+};
 
-const renderScores = (results) => {
+const renderScores = results => {
   return results.map((item, i) => {
     return (
       <div key={i} className="round">
-        <div className={item.result === 'player1' ? 'winner' : ''}>{item.player1}</div>
+        <div className={item.result === "player1" ? "winner" : ""}>
+          {item.player1}
+        </div>
         <div>Round {i + 1}</div>
-        <div className={item.result === 'player2' ? 'winner': ''}>{item.player2}</div>
+        <div className={item.result === "player2" ? "winner" : ""}>
+          {item.player2}
+        </div>
       </div>
-    )
+    );
   });
-}
+};
 
 export default Scores;
