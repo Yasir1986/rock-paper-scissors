@@ -54,6 +54,7 @@ const mapStateToProps = state => {
   };
 };
 
+
 const mapDispatchToProps = dispatch => {
   return {
     startGame: () => startGame(dispatch),
