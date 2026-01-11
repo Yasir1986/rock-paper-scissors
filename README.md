@@ -10,5 +10,3 @@ Follow the steps to run this rock paper scissors game in React
 2)npm install
 
 3)npm start
-
-Enjoy :)
