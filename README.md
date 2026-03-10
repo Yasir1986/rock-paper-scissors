@@ -7,6 +7,6 @@ Follow the steps to run this rock paper scissors game in React
 
 1)git clone https://github.com/Yasir1986/rock-paper-scissors
 
-2)npm i
+2)npm install
 
 3)npm start
